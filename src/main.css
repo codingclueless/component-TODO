@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Pacifico&display=swap');
+
+@font-face {
+    font-family: Vegan;
+    src: url("../assets/vegan_style_personal_use-webfont.woff");
+}
+
+
+body {
+    background-color: #232B2B;
+}
+
+h1 {
+    color: #DC3D24;
+    text-shadow: .25vw .25vw #FFFFFF;
+    transform: rotate(-13deg);
+    font-family: Vegan;
+    text-align: center;
+    margin-bottom: -4vw;
+}
+
+#todo-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    align-content: center;  
+}
+
+#todo-list li {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    list-style: none;
+    font-family: 'Oswald';
+    text-align: left;
+    background-color:#E9633B;
+    padding-left: 1vw;
+    margin: 1vw;
+    border-style: solid;
+    border-width: 1vw;
+}
+

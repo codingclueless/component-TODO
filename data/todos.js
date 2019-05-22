@@ -1,4 +1,4 @@
-const todo = [
+const todos = [
     {
         task: 'buy 3-ply',
         completed: true
@@ -21,4 +21,4 @@ const todo = [
     },
 ];
 
-export default todo;
+export default todos;
