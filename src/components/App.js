@@ -1,5 +1,6 @@
 import Component from './Component.js';
 import Header from './Header.js';
+import TodoList from './TodoList.js';
 
 class App extends Component {
 
@@ -8,8 +9,12 @@ class App extends Component {
         const header = new Header();
         const headerDOM = header.render();
 
+        const todoList = new TodoList();
+        const todoListDom = todoList.render();
+
         const main = dom.querySelector('main');
         dom.insertBefore(headerDOM, main);
+        main.appendChild(todoListDom);
 
 
         return dom;
