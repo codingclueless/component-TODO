@@ -34,7 +34,7 @@ class App extends Component {
     renderTemplate() {
         return /*html*/`
             <div>
-                <main>this is the main shit</main>
+                <main></main>
             </div>
         `;
     }

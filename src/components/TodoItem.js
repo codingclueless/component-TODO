@@ -8,8 +8,7 @@ class TodoItem extends Component {
 
         return /*html*/`
             <li>
-                <h2 class="task">${todos.task}</h2>
-                <button class="remove-button"></button>
+            <button class="button">${todos.task}</button>
             </li>
         `;
     }

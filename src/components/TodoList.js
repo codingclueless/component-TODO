@@ -21,7 +21,7 @@ class TodoList extends Component {
 
     renderTemplate() {
         return /*html*/`
-            <ul id="todo-list">future list</ul>
+            <ul id="todo-list"></ul>
         `;
     }
 }
