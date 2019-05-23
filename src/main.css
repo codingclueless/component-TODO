@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Pacifico&display=swap');
+
+@font-face {
+    font-family: "Vegan";
+    src: url('../assests/vegan_style_personal_use-webfont.woff');
+}
+
+
+body {
+    background-color: #232B2B;
+}
+
+h1 {
+    color: #DC3D24;
+    font-size: 15vw;
+    text-shadow: .25vw .25vw 1vw #FFFFFF;
+    transform: rotate(-13deg);
+    font-family: 'Vegan';
+    text-align: center;
+    margin-bottom: 1vw;
+    margin-left: 5vw;
+    margin-top: -1vw;
+}
+
+/*form add task form*/
+form {
+    font-size: 5vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-left: 10vw;
+    text-shadow: .25vw .25vw 1vw #DC3D24; 
+}
+
+form label {
+    font-family: oswald;
+    font-size: 5vw;
+    color: #FFFFFF;
+}
+
+form input {
+    width: 35vw;
+    height: 5vw;
+}
+
+form button {
+    border-radius: 8%;
+    margin-left: 2vw;
+    font-family: 'Oswald';
+    width: 13vw;
+    height: 10vw;
+}
+
+form button:hover {
+    color: #FFFFFF;
+    background-color: #232B2B;
+    box-shadow: 0vw 0vw 1.5vw #DC3D24; 
+}
+/*end of form*/
+
+ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-content: center;  
+    list-style: none;
+    
+}
+
+ul button {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: 'Oswald';
+    text-align: center;
+    background-color:#E9633B;
+    padding-left: 2vw;
+    margin: 1vw;
+    border-style: solid;
+    border-width: 1vw;
+    text-shadow: .5vw .5vw 1vw #232B2B;
+    width: 45vw;
+}
+
+ul button:hover {
+    transition: .4s;
+    transform: scale(1.5);
+    box-shadow: 0vw 0vw 2vw #FFFFFF;
+}
+
+
+
