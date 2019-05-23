@@ -1,4 +1,5 @@
 import htmlToDOM from '../src/html-to-dom.js';
+
 const test = QUnit.test;
 
 QUnit.module('html to DOM');
