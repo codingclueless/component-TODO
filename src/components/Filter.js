@@ -12,6 +12,7 @@ class Filter extends Component {
 
             const search = form.elements['search'].value;
             this.props.onFilter({ 
+                completed: form.elements['radio'].value,
                 text: search
 
             });  
@@ -23,14 +24,15 @@ class Filter extends Component {
 
     renderTemplate() {
         return /*html*/`
-            <fieldset class="radio">
-                <form>
-
-                    <label for="search-todo">Search: <input name="search" type="text"  placeholder="Todo"></label>
+            <fieldset  class="radio">
+                <form id="search-form">
+                    <div >
+                    <label  for="search-todo">Search: <input name="search" type="text"  placeholder="Todo"></label>
 
                     <label for="all">All<input type="radio" name="radio" value="all"></label>
-                    <label for="completed">Completed<input type="radio" name="radio" value="completed"></label>
-                    <label for="not-done">Not Done<input type="radio" name="radio" value="not-done"></label>
+                    <label for="completed">Completed<input type="radio" name="radio" value="true"></label>
+                    <label for="not-done">Not Done<input type="radio" name="radio" value="false"></label>
+                    </div>
                 </form>
             </fieldset>
     `;
