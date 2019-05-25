@@ -1,4 +1,0 @@
-var currentDate = new Date();
-
-
-
